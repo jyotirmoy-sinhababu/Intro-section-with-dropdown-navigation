@@ -3,3 +3,19 @@
 .nav-btn-cnt {
   display: flex;
 }
+
+.nav-mobile-view-cnt {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .nav-cnt {
+    display: none;
+  }
+
+  .nav-mobile-view-cnt {
+    display: flex;
+    padding-top: 25px;
+    justify-content: space-around;
+  }
+}

@@ -33,6 +33,7 @@ const Nav = () => {
         </div>
       </div>
       <div className='nav-mobile-view-cnt'>
+        <Logo />
         <NavMobileBtn />
       </div>
     </>
