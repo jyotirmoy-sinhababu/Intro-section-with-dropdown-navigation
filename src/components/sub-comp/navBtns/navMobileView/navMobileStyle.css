@@ -4,6 +4,7 @@
   gap: 15px;
   border: none;
   background-color: white;
+  height: 50px;
 }
 
 .nav-1stspan,
@@ -12,4 +13,34 @@
   width: 40px;
   height: 3px;
   background-color: black;
+}
+
+.nav-mobile-btn-cnt {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.one {
+  transform: rotate(45deg);
+  position: absolute;
+  right: 20px;
+  top: 60px;
+}
+
+.two {
+  display: none;
+}
+
+.three {
+  transform: rotate(-45deg);
+  position: absolute;
+  right: 20px;
+  top: 60px;
+}
+
+.nav-mobile-btn-cnt,
+.one,
+.three {
+  transition: transform 1s ease-in;
 }

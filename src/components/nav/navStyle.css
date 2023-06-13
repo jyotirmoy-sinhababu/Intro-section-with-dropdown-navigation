@@ -4,6 +4,11 @@
   display: flex;
 }
 
+.nav-cnt {
+  padding-top: 20px;
+  position: relative;
+}
+
 .nav-mobile-view-cnt {
   display: none;
 }
