@@ -26,7 +26,8 @@
   position: absolute;
   right: 25px;
   top: 50px;
-  animation: move 2s;
+  animation: move 2s linear;
+  background-color: red;
 }
 
 .two {
@@ -38,7 +39,8 @@
   position: absolute;
   right: 25px;
   top: 50px;
-  animation: move 2s;
+  animation: move 2s linear;
+  background-color: red;
 }
 
 .nav-mobile-btn-cnt,
@@ -51,8 +53,14 @@
   0% {
     right: 100px;
   }
+  15% {
+    right: 85px;
+  }
   25% {
     right: 75px;
+  }
+  45% {
+    right: 65px;
   }
   50% {
     right: 50px;
