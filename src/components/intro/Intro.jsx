@@ -1,5 +1,7 @@
 import React from 'react';
 
+import './introStyle.css';
+
 import audio from '../../assests/img/client-audiophile.svg';
 import databiz from '../../assests/img/client-databiz.svg';
 import maker from '../../assests/img/client-maker.svg';
@@ -8,7 +10,7 @@ import mobImg from '../../assests/img/image-hero-mobile.png';
 
 const Intro = () => {
   return (
-    <div>
+    <div className='intro-cnt'>
       <div>
         <div>
           <h1>Make remote work</h1>
@@ -27,7 +29,7 @@ const Intro = () => {
         </div>
       </div>
       <div>
-        <img src={deskImg} alt='' />
+        <img className='main-img' src={deskImg} alt='' />
       </div>
     </div>
   );
