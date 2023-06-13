@@ -1,0 +1,5 @@
+.nav-cnt,
+.nav-logo-btn-cnt,
+.nav-btn-cnt {
+  display: flex;
+}

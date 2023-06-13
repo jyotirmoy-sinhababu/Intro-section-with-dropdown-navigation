@@ -1,5 +1,7 @@
 import React from 'react';
 
+import './navStyle.css';
+
 import Logo from '../logo/Logo';
 import FeatureBtn from '../sub-comp/navBtns/Feature/FeatureBtn';
 import CompanyBtn from '../sub-comp/navBtns/company/CompanyBtn';
