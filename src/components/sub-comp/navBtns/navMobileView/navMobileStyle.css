@@ -24,8 +24,9 @@
 .one {
   transform: rotate(45deg);
   position: absolute;
-  right: 20px;
-  top: 60px;
+  right: 25px;
+  top: 50px;
+  animation: move 2s;
 }
 
 .two {
@@ -35,12 +36,28 @@
 .three {
   transform: rotate(-45deg);
   position: absolute;
-  right: 20px;
-  top: 60px;
+  right: 25px;
+  top: 50px;
+  animation: move 2s;
 }
 
 .nav-mobile-btn-cnt,
 .one,
 .three {
   transition: transform 1s ease-in;
+}
+
+@keyframes move {
+  0% {
+    right: 100px;
+  }
+  25% {
+    right: 75px;
+  }
+  50% {
+    right: 50px;
+  }
+  100% {
+    right: 25px;
+  }
 }
