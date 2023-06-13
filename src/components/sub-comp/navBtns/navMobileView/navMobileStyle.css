@@ -1,0 +1,15 @@
+.nav-mobile-btn {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  border: none;
+  background-color: white;
+}
+
+.nav-1stspan,
+.nav-2ndspan,
+.nav-3rdspan {
+  width: 50px;
+  height: 2px;
+  background-color: black;
+}
