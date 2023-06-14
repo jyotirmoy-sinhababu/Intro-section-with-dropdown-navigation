@@ -74,6 +74,7 @@
 .nav-mobile-subBtn-cnt {
   position: absolute;
   height: 500px;
+  width: 300px;
   right: 10%;
   display: flex;
   flex-direction: column;
@@ -82,16 +83,30 @@
   background-color: white;
   border-radius: 7px;
   padding-top: 10px;
+  animation: width 2s linear;
 }
 
 .nav-btn-first {
   display: flex;
   flex-direction: column;
   gap: 65px;
+  animation: width 2s linear;
 }
 
 .careers,
 .about {
   background-color: white;
   border: none;
+}
+.nav-btn-second {
+  animation: width 2s linear;
+}
+
+@keyframes width {
+  from {
+    width: 0px;
+  }
+  to {
+    width: 300px;
+  }
 }
