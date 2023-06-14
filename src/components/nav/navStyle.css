@@ -51,6 +51,7 @@
   .nav-mobile-view-cnt {
     display: flex;
     padding-top: 25px;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 10px;
   }
 }

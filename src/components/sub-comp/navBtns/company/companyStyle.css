@@ -13,3 +13,28 @@
   color: black;
   font-weight: 700;
 }
+
+.company-btn-cnt {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  gap: 10px;
+  width: 130px;
+  height: 110px;
+  padding-top: 10px;
+  border-radius: 9px;
+  align-items: center;
+  box-shadow: 0 0 14px rgb(45, 44, 40);
+}
+
+.company-btn {
+  border: none;
+  background-color: white;
+  font-family: 'Epilogue', sans-serif;
+  width: 100px;
+  cursor: pointer;
+}
+
+.company-btn:hover {
+  font-weight: 700;
+}

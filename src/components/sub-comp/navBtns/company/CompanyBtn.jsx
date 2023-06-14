@@ -19,10 +19,10 @@ const CompanyBtn = () => {
           Company {!isClicked ? <IoMdArrowDropdown /> : <IoMdArrowDropup />}
         </button>
         {isClicked ? (
-          <div>
-            <button>History </button>
-            <button>Our Team </button>
-            <button>Blog </button>
+          <div className='company-btn-cnt'>
+            <button className='company-btn'>History </button>
+            <button className='company-btn'>Our Team </button>
+            <button className='company-btn'>Blog </button>
           </div>
         ) : null}
       </div>

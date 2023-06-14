@@ -23,17 +23,17 @@ const FeatureBtn = () => {
         Features {!isOpen ? <IoMdArrowDropdown /> : <IoMdArrowDropup />}
       </button>
       {isOpen ? (
-        <div>
-          <button>
+        <div className='feature-btn-cnt'>
+          <button className='feature-btn'>
             <RiTodoLine /> Todo Lists
           </button>
-          <button>
+          <button className='feature-btn'>
             <SlCalender /> Calender
           </button>
-          <button>
+          <button className='feature-btn'>
             <AiOutlineBell /> Reminders
           </button>
-          <button>
+          <button className='feature-btn'>
             <LuCalendarClock /> Planning
           </button>
         </div>
