@@ -72,6 +72,17 @@
     gap: 50px;
     padding-top: 0px;
     margin-top: 50px;
+    margin-bottom: 30px;
+  }
+  .intro-header,
+  .intro-para {
+    display: flex;
+    text-align: center;
+  }
+
+  .intro-img-cnt {
+    display: flex;
+    justify-content: center;
   }
 
   .main-img {

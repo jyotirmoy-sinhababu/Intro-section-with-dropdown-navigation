@@ -19,7 +19,7 @@ const Intro = () => {
             processes, create team rituals, and watch productivity soar.
           </p>
         </div>
-        <div>
+        <div className='intro-img-cnt'>
           <button className='intro-btn'>Learn More</button>
         </div>
         <div className='intro-imgs'>
