@@ -27,6 +27,7 @@
   border-radius: 9px;
   align-items: center;
   box-shadow: 0 0 14px rgb(45, 44, 40);
+  z-index: 500;
 }
 
 .feature-btn {
@@ -38,4 +39,11 @@
 }
 .feature-btn:hover {
   font-weight: 700;
+}
+
+@media screen and (max-width: 600px) {
+  .feature-btn-cnt {
+    position: absolute;
+    left: 68%;
+  }
 }

@@ -38,3 +38,11 @@
 .company-btn:hover {
   font-weight: 700;
 }
+
+@media screen and (max-width: 600px) {
+  .company-btn-cnt {
+    position: absolute;
+    left: 1%;
+    top: 22%;
+  }
+}

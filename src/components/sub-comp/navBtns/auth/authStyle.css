@@ -37,3 +37,22 @@
 .register-btn-cnt:hover {
   border: 3px solid black;
 }
+
+@media screen and (max-width: 600px) {
+  .auth-cnt {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  .logIn-btn,
+  .register-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 19px;
+    border: none;
+    background-color: azure;
+    cursor: pointer;
+    font-family: 'Epilogue', sans-serif;
+  }
+}

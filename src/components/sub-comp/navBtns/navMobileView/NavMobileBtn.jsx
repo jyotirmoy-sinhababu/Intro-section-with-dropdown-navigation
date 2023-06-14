@@ -31,15 +31,15 @@ const NavMobileBtn = () => {
       </button>
       <div>
         {isNavBtn ? (
-          <div>
-            <div>
+          <div className='nav-mobile-subBtn-cnt'>
+            <div className='nav-btn-first'>
               {' '}
               <FeatureBtn />
               <CompanyBtn />
-              <button>Careers</button>
-              <button>About</button>
+              <button className='careers'>Careers</button>
+              <button className='about'>About</button>
             </div>
-            <div>
+            <div className='nav-btn-second'>
               <Auth />
             </div>
           </div>
