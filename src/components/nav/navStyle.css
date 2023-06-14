@@ -7,9 +7,10 @@
 }
 
 .nav-cnt {
-  padding-top: 20px;
+  padding-top: 30px;
   position: relative;
   justify-content: space-around;
+  align-items: center;
 }
 
 .nav-logo-btn-cnt {

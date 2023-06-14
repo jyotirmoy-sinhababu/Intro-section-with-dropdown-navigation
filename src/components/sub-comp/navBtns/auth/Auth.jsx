@@ -6,10 +6,10 @@ const Auth = () => {
   return (
     <div className='auth-cnt'>
       <div className='logIn-btn-cnt'>
-        <button>Login</button>
+        <button className='logIn-btn'>Login</button>
       </div>
       <div className='register-btn-cnt'>
-        <button>Register</button>
+        <button className='register-btn'>Register</button>
       </div>
     </div>
   );
