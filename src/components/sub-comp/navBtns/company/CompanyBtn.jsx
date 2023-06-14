@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 
+import './companyStyle.css';
+
 import { IoMdArrowDropdown } from 'react-icons/io';
 import { IoMdArrowDropup } from 'react-icons/io';
 
@@ -13,7 +15,7 @@ const CompanyBtn = () => {
   return (
     <div>
       <div>
-        <button onClick={controlCompany}>
+        <button className='company-btn' onClick={controlCompany}>
           Company {!isClicked ? <IoMdArrowDropdown /> : <IoMdArrowDropup />}
         </button>
         {isClicked ? (

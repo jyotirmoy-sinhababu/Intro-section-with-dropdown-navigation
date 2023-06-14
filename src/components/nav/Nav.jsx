@@ -21,10 +21,10 @@ const Nav = () => {
             <FeatureBtn />
             <CompanyBtn />
             <div>
-              <button>Careers</button>
+              <button className='nav-btns'>Careers</button>
             </div>
             <div>
-              <button>About</button>
+              <button className='nav-btns'>About</button>
             </div>
           </div>
         </div>

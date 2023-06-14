@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Be+Vietnam+Pro&family=Bruno+Ace+SC&family=Epilogue&family=Montserrat+Alternates:wght@200&family=Nunito+Sans:ital,wght@0,400;1,200&display=swap');
+
+.featue-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 19px;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+  font-family: 'Epilogue', sans-serif;
+}
+
+.featue-btn:hover {
+  color: black;
+  font-weight: 700;
+}

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Be+Vietnam+Pro&family=Bruno+Ace+SC&family=Epilogue&family=Montserrat+Alternates:wght@200&family=Nunito+Sans:ital,wght@0,400;1,200&display=swap');
+
 .nav-cnt,
 .nav-logo-btn-cnt,
 .nav-btn-cnt {
@@ -7,6 +9,31 @@
 .nav-cnt {
   padding-top: 20px;
   position: relative;
+  justify-content: space-around;
+}
+
+.nav-logo-btn-cnt {
+  justify-content: space-around;
+  width: 600px;
+}
+
+.nav-btns {
+  border: none;
+  background-color: white;
+  cursor: pointer;
+  font-family: 'Epilogue', sans-serif;
+  font-size: 19px;
+}
+
+.nav-btns:hover {
+  color: black;
+  font-weight: 700;
+}
+
+.nav-btn-cnt {
+  display: flex;
+  justify-content: space-around;
+  width: 500px;
 }
 
 .nav-mobile-view-cnt {

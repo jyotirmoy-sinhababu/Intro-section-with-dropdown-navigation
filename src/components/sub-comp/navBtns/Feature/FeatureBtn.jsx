@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 
+import './featureStyle.css';
+
 import { IoMdArrowDropdown } from 'react-icons/io';
 import { IoMdArrowDropup } from 'react-icons/io';
 import { RiTodoLine } from 'react-icons/ri';
@@ -17,7 +19,7 @@ const FeatureBtn = () => {
 
   return (
     <div>
-      <button onClick={controlFeature}>
+      <button className='featue-btn' onClick={controlFeature}>
         Features {!isOpen ? <IoMdArrowDropdown /> : <IoMdArrowDropup />}
       </button>
       {isOpen ? (
